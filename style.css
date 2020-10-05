@@ -1,0 +1,180 @@
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* z-index: 1; */
+    /* background-color: rgb(34,101,34); */
+    box-shadow: 0 0 15px #333;
+}
+
+body {
+    margin: 0;
+    background:rgb(230, 230, 221);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(34,101,34);
+    font-size: larger;
+    font-style: inherit;
+    
+
+}
+
+li {
+    float: right;
+    width: 80px;
+    padding-top: 45px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    /* padding: 20px; */
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    text-decoration: underline;
+    /* background-color: #111; */
+}
+
+#logo {
+    margin-left: 80px;
+}
+
+
+
+
+
+.vertical-menu a {
+    background-color: rgb(255, 255, 255, 0.3);
+    color: #333;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    border: solid #475749 .1px;
+    
+}
+
+
+
+
+
+
+
+/**************************Hide and Show Content*********************/
+h2{
+    text-align: center;
+    /* background: rgb(93, 102, 11); */
+    box-shadow: 0 0 8px rgb(31, 116, 31);
+    padding: 8px;
+}
+
+.container-fluid{
+    height: auto;
+    overflow: hidden;
+    /* background: rgb(189, 196, 193); */
+}
+
+#verticalMenu{
+    height: 500px;
+    overflow: auto;
+    /* background: rgb(230, 230, 221); */
+    background-image: url("https://bit.ly/3ijAcuI");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#verticalMenu a:hover{
+    font-weight: bold;
+    background: rgb(197, 151, 66);
+}
+
+.col-sm-4 img{
+    height: 200px;
+    width: 300px; 
+    /* border: solid rgb(9, 151, 68) 2px; */
+    border-radius: 5px;
+    box-shadow: 0 0 8px rgb(94, 106, 72);
+}
+
+p{
+    text-align: center;
+}
+
+#coachingDetails{
+    background: linear-gradient(transparent, rgb(96, 163, 96)); 
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+#hrOverEvents{
+    border:none;
+    height: 20px;
+     width: 90%;
+    height: 50px;
+    margin-top: 0;
+    border-bottom: 1px solid #1f1209;
+    box-shadow: 0 5px 20px 0px #333;
+    margin: -50px auto 10px;
+}
+
+#exportCoachingDetails{
+    background-image: url("https://bit.ly/3ijAcuI");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#exportCapacityDetails{
+    background: rgb(230, 230, 221);
+}
+
+#hrOverEvents{
+    border:none;
+    height: 20px;
+    /* width: 90%; */
+    height: 50px;
+    margin-top: 0;
+    /* border-bottom: 1px solid #1f1209; */
+    box-shadow: 0 3px 4px 0px #333;
+    margin: -55px auto 10px;
+}
+
+#footer{
+    background: rgb(34,101,34) ;
+    height: 70px;
+    width: auto;
+    box-shadow: 0 0 15px #333;
+
+}
+
+#footerLogo{
+    float: left;
+    margin-left: 25px;
+    width: 60px;
+    height: 50px;
+}
+
+#exportCapacityDetails hr{
+    /* border-top: 1.75px solid rgb(108, 160, 108); */
+    /* border-top: 1.75px solid rgb(172, 172, 172); */
+    border-top: 2px solid unset;
+}
+
+/* #hrCapacity{
+    border-top: 1.75px solid rgb(108, 160, 108);
+} */
+
+
+
+
+
+
+
